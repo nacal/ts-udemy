@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/nkthkr/ts-udemy.git",
   "author": "nkthkr <hikaru.nakata@nislab.doshisha.ac.jp>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "3.7.5"
+  }
 }
