@@ -2,11 +2,15 @@
   "name": "ts-udemy",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn"
+  },
   "repository": "https://github.com/nkthkr/ts-udemy.git",
   "author": "nkthkr <hikaru.nakata@nislab.doshisha.ac.jp>",
   "license": "MIT",
   "devDependencies": {
     "ts-node": "8.6.2",
+    "ts-node-dev": "1.0.0-pre.44",
     "typescript": "3.7.5"
   }
 }
