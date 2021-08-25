@@ -1,9 +1,23 @@
 export { };
 
-class VisaCard {
-  constructor(readonly owner: string) { }
+interface Profile {
+  name: string;
+  age: number;
+};
+
+const me: Profile = {
+  name: 'Taro',
+  age: 20
 }
 
-const myCard = new VisaCard('Taro');
-console.log(myCard.owner);
-// myCard.owner = 'Hanako'; #error
+me.age++;
+
+
+type PersonalDataType = Readonly<Profile>;
+
+const friend: PersonalDataType = {
+  name: 'Jiro',
+  age: 22
+}
+
+// friend.age++; #error
